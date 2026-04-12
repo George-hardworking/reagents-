@@ -14,10 +14,10 @@ from typing import Dict, Any
 # 添加父目录到路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agentvs.dataset_loader import DatasetLoader
+from data.dataset_loader import DatasetLoader
 from agentvs.single_refletion import solve_with_php, PHPResult
-from agentvs.utils.record import save_record
-from agentvs.prompts import get_prompt, get_php_continuation_prompt
+from core.record import save_record
+from core.prompts import get_prompt, get_php_continuation_prompt
 from typing import Literal, Optional
 
 

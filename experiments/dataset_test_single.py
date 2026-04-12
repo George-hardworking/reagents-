@@ -14,10 +14,10 @@ if str(ROOT) not in sys.path:
 from dotenv import load_dotenv
 load_dotenv()
 
-from agentvs.dataset_loader import DatasetLoader
+from data.dataset_loader import DatasetLoader
 from agentvs.single_agent import solve_once
-from agentvs.math_normalize import normalize_answer
-from agentvs import eval_math
+from evaluation.math_normalize import normalize_answer
+from evaluation import eval_math
 
 
 def _extract_and_norm(s: Optional[str]) -> tuple[Optional[str], Optional[str]]:

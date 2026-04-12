@@ -14,7 +14,7 @@ from typing import List, Dict
 from dotenv import load_dotenv
 
 from agentvs import run_multi_agent_debate_for_dataset
-from agentvs.dataset_loader import DatasetLoader
+from data.dataset_loader import DatasetLoader
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:

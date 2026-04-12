@@ -1,7 +1,7 @@
 # agentvs/dataset_loader.py
 from typing import Tuple, List
 from datasets import load_dataset
-from .math_normalize import normalize_answer
+from evaluation.math_normalize import normalize_answer
 
 
 class DatasetLoader:

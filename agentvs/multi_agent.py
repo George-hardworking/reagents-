@@ -8,16 +8,16 @@ from langgraph.graph import StateGraph, END, START
 from typing import Dict, List, Literal, Optional, Tuple, Any, Union
 from dataclasses import dataclass, field
 from .model_manager import ModelManager
-from .math_normalize import normalize_answer
-from .grader import grade_answer
-from .eval_math import parse_answer
+from evaluation.math_normalize import normalize_answer
+from evaluation.grader import grade_answer
+from evaluation.eval_math import parse_answer
 import re
 import uuid
 import time 
-from .prompts import get_prompt
+from core.prompts import get_prompt
 from datetime import datetime
-from .experiment_recorder import ExperimentRecorder
-from .utils.record import save_record
+from evaluation.experiment_recorder import ExperimentRecorder
+from core.record import save_record
 
 @dataclass
 class DebateState:

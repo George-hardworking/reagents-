@@ -8,7 +8,7 @@ import os
 import traceback
 from volcenginesdkarkruntime import Ark
 from langchain_openai import ChatOpenAI
-from .config import (
+from core.config import (
     ARK_API_KEY, VOLC_ENDPOINTID,
     QWEN_API_KEY, QWEN_BASE_URL, QWEN_MODEL
 )

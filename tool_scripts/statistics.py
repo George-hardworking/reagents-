@@ -16,9 +16,9 @@ from pathlib import Path
 from typing import Dict, List, Any, Tuple
 from datetime import datetime
 
-from .grader import grade_answer
-from .eval_math import parse_answer
-from .math_normalize import normalize_answer
+from evaluation.grader import grade_answer
+from evaluation.eval_math import parse_answer
+from evaluation.math_normalize import normalize_answer
 
 
 class ExperimentStatistics:

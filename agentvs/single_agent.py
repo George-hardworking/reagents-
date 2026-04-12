@@ -2,8 +2,8 @@ from dataclasses import dataclass
 from typing import Optional, Dict, Any
 import datetime
 from .model_manager import ModelManager
-from .prompts import get_prompt
-from .utils.record import save_record
+from core.prompts import get_prompt
+from core.record import save_record
 
 DEFAULT_SYSTEM_PROMPT = "You are a helpful, concise problem-solver. Answer directly and show minimal necessary working."
 

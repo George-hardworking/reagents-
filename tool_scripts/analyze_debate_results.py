@@ -12,10 +12,10 @@ import glob
 import tiktoken
 
 from pathlib import Path
-from agentvs.grader import grade_answer
+from evaluation.grader import grade_answer
 from typing import Dict, List, Any, Tuple
-from agentvs.eval_math import parse_answer
-from agentvs.math_normalize import normalize_answer
+from evaluation.eval_math import parse_answer
+from evaluation.math_normalize import normalize_answer
 
 
 def load_json_files(directory: str) -> List[Dict[str, Any]]:

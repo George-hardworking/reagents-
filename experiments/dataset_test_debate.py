@@ -11,9 +11,9 @@ import random
 import json
 import sys
 import os
-from agentvs.experiment_recorder import ExperimentRecorder
+from evaluation.experiment_recorder import ExperimentRecorder
 from agentvs import run_multi_agent_debate_for_dataset
-from agentvs.dataset_loader import DatasetLoader 
+from data.dataset_loader import DatasetLoader 
 from datasets import load_dataset
 from dotenv import load_dotenv
 from typing import Optional

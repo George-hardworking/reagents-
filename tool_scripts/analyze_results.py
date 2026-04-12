@@ -24,7 +24,7 @@ import sys
 # Add parent directory to path to import agentvs modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agentvs.statistics import ExperimentStatistics
+from tool_scripts.statistics import ExperimentStatistics
 
 
 def main():

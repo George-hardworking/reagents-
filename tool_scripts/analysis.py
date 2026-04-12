@@ -3,7 +3,7 @@ Analysis module for evaluating experimental results.
 This module loads data from record files and performs statistical analysis.
 """
 
-from agentvs.utils.record import load_record
+from core.record import load_record
 from typing import List, Dict, Any
 import os
 from collections import defaultdict
@@ -77,9 +77,9 @@ class ExperimentAnalyzer:
 
     def _is_answer_correct(self, pred_answer: str, gold_answer: str) -> bool:
         """判断答案是否正确（调用您现有的评估逻辑）"""
-        from agentvs.math_normalize import normalize_answer
-        from agentvs.grader import grade_answer
-        from agentvs.eval_math import parse_answer
+        from evaluation.math_normalize import normalize_answer
+        from evaluation.grader import grade_answer
+        from evaluation.eval_math import parse_answer
         
         pred_normalized = normalize_answer(parse_answer(pred_answer))
         gold_normalized = normalize_answer(parse_answer(gold_answer))

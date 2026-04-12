@@ -10,8 +10,8 @@ import sys
 import datetime
 
 from dataclasses import dataclass
-from .utils.record import save_record
-from .prompts import get_prompt, get_php_continuation_prompt
+from core.record import save_record
+from core.prompts import get_prompt, get_php_continuation_prompt
 from langgraph.graph import StateGraph, END
 from .model_manager import ModelManager
 from typing_extensions import Annotated

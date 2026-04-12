@@ -13,8 +13,8 @@ import json
 import sys
 import os
 from agentvs import run_multi_agent_debate_for_dataset, run_single_agent_for_dataset
-from agentvs.dataset_loader import DatasetLoader
-from agentvs.utils.record import save_record
+from data.dataset_loader import DatasetLoader
+from core.record import save_record
 from dotenv import load_dotenv
 from typing import Optional
 import math

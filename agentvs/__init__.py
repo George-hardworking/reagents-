@@ -10,7 +10,7 @@ from .multi_agent import (
     run_multi_agent_debate_for_dataset,
 )
 from .single_agent import run_single_agent_for_dataset
-from .experiment_recorder import ExperimentRecorder
+from evaluation.experiment_recorder import ExperimentRecorder
 
 # from .dataset_tester import DatasetTester
 
