@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-10-31 04:10:02",
+  "final_round_accuracy_statistics": {
+    "total_samples": 7500,
+    "agent1_correct": 5426,
+    "agent2_correct": 5415,
+    "model_correct": 5344,
+    "agent1_accuracy": 0.7234666666666667,
+    "agent2_accuracy": 0.722,
+    "model_accuracy": 0.7125333333333334
+  },
+  "round_by_round_accuracy_statistics": {
+    "round_1": {
+      "total_samples": 7500,
+      "agent1_correct": 5341,
+      "agent2_correct": 5346,
+      "model_correct": 4819,
+      "agent1_accuracy": 0.7121333333333333,
+      "agent2_accuracy": 0.7128,
+      "model_accuracy": 0.6425333333333333
+    },
+    "round_2": {
+      "total_samples": 7500,
+      "agent1_correct": 5404,
+      "agent2_correct": 5420,
+      "model_correct": 5308,
+      "agent1_accuracy": 0.7205333333333334,
+      "agent2_accuracy": 0.7226666666666667,
+      "model_accuracy": 0.7077333333333333
+    },
+    "round_3": {
+      "total_samples": 7500,
+      "agent1_correct": 5426,
+      "agent2_correct": 5415,
+      "model_correct": 5344,
+      "agent1_accuracy": 0.7234666666666667,
+      "agent2_accuracy": 0.722,
+      "model_accuracy": 0.7125333333333334
+    }
+  },
+  "runtime_statistics": {
+    "total_overview_runtime": 575446.2157716751,
+    "total_agent1_runtime": 285832.0578999989,
+    "total_agent2_runtime": 289473.8103000018,
+    "total_rounds": 22500,
+    "total_agent1_round1_runtime": 116129.03230000062,
+    "total_agent1_round2_runtime": 84880.53270000011,
+    "total_agent1_round3_runtime": 84822.49290000016,
+    "total_agent2_round1_runtime": 116723.33930000015,
+    "total_agent2_round2_runtime": 87299.60419999961,
+    "total_agent2_round3_runtime": 85450.86679999971
+  },
+  "token_usage_statistics": {
+    "total_agent1_tokens": 11380148,
+    "total_agent2_tokens": 11538030,
+    "total_tokens": 22918178,
+    "total_agent1_round1_tokens": 4682731,
+    "total_agent1_round2_tokens": 3345809,
+    "total_agent1_round3_tokens": 3351608,
+    "total_agent2_round1_tokens": 4706995,
+    "total_agent2_round2_tokens": 3452941,
+    "total_agent2_round3_tokens": 3378094
+  }
+}

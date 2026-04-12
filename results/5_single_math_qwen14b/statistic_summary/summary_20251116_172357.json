@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-11-16 17:23:57",
+  "final_round_accuracy_statistics": {
+    "total_samples": 7500,
+    "agent1_correct": 5716,
+    "model_correct": 5716,
+    "agent1_accuracy": 0.7621333333333333,
+    "model_accuracy": 0.7621333333333333
+  },
+  "round_by_round_accuracy_statistics": {
+    "round_1": {
+      "total_samples": 7500,
+      "agent1_correct": 5716,
+      "model_correct": 5716,
+      "agent1_accuracy": 0.7621333333333333,
+      "model_accuracy": 0.7621333333333333
+    },
+    "round_2": {
+      "total_samples": 7500,
+      "agent1_correct": 0,
+      "model_correct": 0,
+      "agent1_accuracy": 0.0,
+      "model_accuracy": 0.0
+    },
+    "round_3": {
+      "total_samples": 7500,
+      "agent1_correct": 0,
+      "model_correct": 0,
+      "agent1_accuracy": 0.0,
+      "model_accuracy": 0.0
+    }
+  },
+  "runtime_statistics": {
+    "total_overview_runtime": 91195.86636700001,
+    "total_agent1_runtime": 91195.86636700001,
+    "total_rounds": 7500,
+    "total_agent1_round1_runtime": 91195.86636700001,
+    "total_agent1_round2_runtime": 0,
+    "total_agent1_round3_runtime": 0
+  },
+  "token_usage_statistics": {
+    "total_agent1_tokens": 4081033,
+    "total_tokens": 4081033,
+    "total_agent1_round1_tokens": 4081033,
+    "total_agent1_round2_tokens": 0,
+    "total_agent1_round3_tokens": 0
+  }
+}

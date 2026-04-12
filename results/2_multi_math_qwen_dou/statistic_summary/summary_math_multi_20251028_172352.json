@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-10-28 17:23:52",
+  "final_round_accuracy_statistics": {
+    "total_samples": 7500,
+    "agent1_correct": 6355,
+    "agent2_correct": 6576,
+    "model_correct": 6294,
+    "agent1_accuracy": 0.8473333333333334,
+    "agent2_accuracy": 0.8768,
+    "model_accuracy": 0.8392
+  },
+  "round_by_round_accuracy_statistics": {
+    "round_1": {
+      "total_samples": 7500,
+      "agent1_correct": 5358,
+      "agent2_correct": 6637,
+      "model_correct": 5049,
+      "agent1_accuracy": 0.7144,
+      "agent2_accuracy": 0.8849333333333333,
+      "model_accuracy": 0.6732
+    },
+    "round_2": {
+      "total_samples": 7500,
+      "agent1_correct": 6423,
+      "agent2_correct": 6597,
+      "model_correct": 6373,
+      "agent1_accuracy": 0.8564,
+      "agent2_accuracy": 0.8796,
+      "model_accuracy": 0.8497333333333333
+    },
+    "round_3": {
+      "total_samples": 7500,
+      "agent1_correct": 6355,
+      "agent2_correct": 6576,
+      "model_correct": 6294,
+      "agent1_accuracy": 0.8473333333333334,
+      "agent2_accuracy": 0.8768,
+      "model_accuracy": 0.8392
+    }
+  },
+  "runtime_statistics": {
+    "total_overview_runtime": 685152.7756340504,
+    "total_agent1_runtime": 293326.21460000065,
+    "total_agent2_runtime": 391671.9084999976,
+    "total_rounds": 22500,
+    "total_agent1_round1_runtime": 114881.77479999993,
+    "total_agent1_round2_runtime": 88254.14439999947,
+    "total_agent1_round3_runtime": 90190.29540000006,
+    "total_agent2_round1_runtime": 173163.9432999995,
+    "total_agent2_round2_runtime": 108415.70639999998,
+    "total_agent2_round3_runtime": 110092.25880000027
+  },
+  "token_usage_statistics": {
+    "total_agent1_tokens": 11858724,
+    "total_agent2_tokens": 9246591,
+    "total_tokens": 21105315,
+    "total_agent1_round1_tokens": 4702585,
+    "total_agent1_round2_tokens": 3525810,
+    "total_agent1_round3_tokens": 3630329,
+    "total_agent2_round1_tokens": 3818311,
+    "total_agent2_round2_tokens": 2711109,
+    "total_agent2_round3_tokens": 2717171
+  }
+}

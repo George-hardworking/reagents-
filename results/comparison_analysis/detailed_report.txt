@@ -1,0 +1,223 @@
+====================================================================================================
+DETAILED EXPERIMENT COMPARISON REPORT
+Generated: 2025-11-17 01:41:35
+====================================================================================================
+
+【Experiment 1】Multi-Agent Debate(qwen2.5-7B & qwen2.5-7B)
+----------------------------------------------------------------------------------------------------
+  Method Type: MULTI
+  Agent1 Model: Qwen2.5-7B
+  Agent2 Model: Qwen2.5-7B
+  Temperature: 0.0
+  Description: Debate(Qwen7b_Qwen7b)
+  Data File: summary_math_multi_20251031_041002.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Agent1 Correct: 5426 (72.35%)
+    Agent2 Correct: 5415 (72.20%)
+    Final Correct: 5344 (71.25%)
+
+  【Round-by-Round Accuracy】
+    Round 1: 4819/7500 (64.25%)
+    Round 2: 5308/7500 (70.77%)
+    Round 3: 5344/7500 (71.25%)
+
+  【Performance Statistics】
+    Total Runtime: 159.85 hours
+    Avg Time/Sample: 76.73 seconds
+    Total Tokens: 22,918,178
+    Avg Tokens/Sample: 3056
+
+
+【Experiment 2】Multi-Agent Debate(qwen2.5-7B & Doubao-1.6)
+----------------------------------------------------------------------------------------------------
+  Method Type: MULTI
+  Agent1 Model: Qwen2.5-7B
+  Agent2 Model: Doubao-1.6
+  Temperature: 0.0
+  Description: Debate(Qwen7b_Dou)
+  Data File: summary_math_multi_20251028_172352.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Agent1 Correct: 6355 (84.73%)
+    Agent2 Correct: 6576 (87.68%)
+    Final Correct: 6294 (83.92%)
+
+  【Round-by-Round Accuracy】
+    Round 1: 5049/7500 (67.32%)
+    Round 2: 6373/7500 (84.97%)
+    Round 3: 6294/7500 (83.92%)
+
+  【Performance Statistics】
+    Total Runtime: 190.32 hours
+    Avg Time/Sample: 91.35 seconds
+    Total Tokens: 21,105,315
+    Avg Tokens/Sample: 2814
+
+
+【Experiment 3】Multi-Agent Debate(Doubao-1.6 & Doubao-1.6)
+----------------------------------------------------------------------------------------------------
+  Method Type: MULTI
+  Agent1 Model: Doubao-1.6
+  Agent2 Model: Doubao-1.6
+  Temperature: 0.0
+  Description: Debate(Dou_Dou)
+  Data File: summary_math_multi_20251114_143830.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Agent1 Correct: 6589 (87.85%)
+    Agent2 Correct: 6584 (87.79%)
+    Final Correct: 6565 (87.53%)
+
+  【Round-by-Round Accuracy】
+    Round 1: 6474/7500 (86.32%)
+    Round 2: 6590/7500 (87.87%)
+    Round 3: 6565/7500 (87.53%)
+
+  【Performance Statistics】
+    Total Runtime: 201.36 hours
+    Avg Time/Sample: 96.65 seconds
+    Total Tokens: 18,970,748
+    Avg Tokens/Sample: 2529
+
+
+【Experiment 4】Single-Agent(qwen2.5-7B)
+----------------------------------------------------------------------------------------------------
+  Method Type: SINGLE
+  Agent1 Model: Qwen2.5-7B
+  Temperature: 0.0
+  Description: Single(Qwen7b)
+  Data File: summary_20251113_165231.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Correct: 5517 (73.56%)
+
+  【Round-by-Round Accuracy】
+    Round 1 (Final): 5517/7500 (73.56%)
+
+  【Performance Statistics】
+    Total Runtime: 33.54 hours
+    Avg Time/Sample: 16.10 seconds
+    Total Tokens: 4,768,016
+    Avg Tokens/Sample: 636
+
+
+【Experiment 5】Single-Agent(Qwen2.5-14b)
+----------------------------------------------------------------------------------------------------
+  Method Type: SINGLE
+  Agent1 Model: Qwen2.5-14b
+  Temperature: 0.0
+  Description: Single(Qwen14b)
+  Data File: summary_20251116_172357.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Correct: 5716 (76.21%)
+
+  【Round-by-Round Accuracy】
+    Round 1 (Final): 5716/7500 (76.21%)
+
+  【Performance Statistics】
+    Total Runtime: 25.33 hours
+    Avg Time/Sample: 12.16 seconds
+    Total Tokens: 4,081,033
+    Avg Tokens/Sample: 544
+
+
+【Experiment 6】Single-Agent(Doubao-1.6)
+----------------------------------------------------------------------------------------------------
+  Method Type: SINGLE
+  Agent1 Model: Doubao-1.6
+  Temperature: 0.0
+  Description: Single(Doubao)
+  Data File: summary_20251108_033359.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Correct: 6603 (88.04%)
+
+  【Round-by-Round Accuracy】
+    Round 1 (Final): 6603/7500 (88.04%)
+
+  【Performance Statistics】
+    Total Runtime: 40.30 hours
+    Avg Time/Sample: 19.34 seconds
+    Total Tokens: 3,641,941
+    Avg Tokens/Sample: 486
+
+
+【Experiment 7】Single Self-Reflection(qwen2.5-7B)
+----------------------------------------------------------------------------------------------------
+  Method Type: PHP
+  Agent1 Model: Qwen2.5-7B
+  Temperature: 0.0
+  Description: SingleSelf(Qwen7b)
+  Data File: summary_math_php_20251113_140140.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Correct: 5449 (72.65%)
+
+  【Round-by-Round Accuracy】
+    Round 1: 5412/7500 (72.16%)
+    Round 2: 5424/7500 (72.32%)
+    Round 3: 5449/7500 (72.65%)
+
+  【Performance Statistics】
+    Total Runtime: 101.53 hours
+    Avg Time/Sample: 48.74 seconds
+    Total Tokens: 15,143,084
+    Avg Tokens/Sample: 2019
+
+
+【Experiment 8】Single Self-Reflection(Qwen-14b)
+----------------------------------------------------------------------------------------------------
+  Method Type: PHP
+  Agent1 Model: Qwen-14b
+  Temperature: 0.0
+  Description: SingleSelf(Qwen14b)
+  Data File: summary_math_php_20251116_143826.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Correct: 5762 (76.83%)
+
+  【Round-by-Round Accuracy】
+    Round 1: 5591/7500 (74.55%)
+    Round 2: 5576/7500 (74.35%)
+    Round 3: 5655/7500 (75.40%)
+
+  【Performance Statistics】
+    Total Runtime: 91.51 hours
+    Avg Time/Sample: 43.92 seconds
+    Total Tokens: 15,322,083
+    Avg Tokens/Sample: 2043
+
+
+【Experiment 9】Single Self-Reflection(Doubao-1.6)
+----------------------------------------------------------------------------------------------------
+  Method Type: PHP
+  Agent1 Model: Doubao-1.6
+  Temperature: 0.0
+  Description: SingleSelf(Dou)
+  Data File: summary_math_php_20251115_194045.json
+
+  【Accuracy Statistics】
+    Total Samples: 7500
+    Correct: 6375 (85.00%)
+
+  【Round-by-Round Accuracy】
+    Round 1: 6636/7500 (88.48%)
+    Round 2: 6277/7500 (83.70%)
+    Round 3: 6308/7500 (84.12%)
+
+  【Performance Statistics】
+    Total Runtime: 176.29 hours
+    Avg Time/Sample: 84.62 seconds
+    Total Tokens: 15,024,402
+    Avg Tokens/Sample: 2003
+

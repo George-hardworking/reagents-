@@ -1,0 +1,10 @@
+﻿Exp ID,Experiment Name,Method,Agent1 Model,Agent2 Model,Temperature,Samples,Agent1 Acc(%),Agent2 Acc(%),Final Acc(%),Total Runtime(h),Avg Time/Sample(s),Total Tokens,Avg Tokens/Sample,Description
+Exp-1,Multi-Agent Debate(qwen2.5-7B & qwen2.5-7B),MULTI,Qwen2.5-7B,Qwen2.5-7B,0.0,7500,72.35,72.20,71.25,159.85,76.73,"22,918,178",3056,Debate(Qwen7b_Qwen7b)
+Exp-2,Multi-Agent Debate(qwen2.5-7B & Doubao-1.6),MULTI,Qwen2.5-7B,Doubao-1.6,0.0,7500,84.73,87.68,83.92,190.32,91.35,"21,105,315",2814,Debate(Qwen7b_Dou)
+Exp-3,Multi-Agent Debate(Doubao-1.6 & Doubao-1.6),MULTI,Doubao-1.6,Doubao-1.6,0.0,7500,87.85,87.79,87.53,201.36,96.65,"18,970,748",2529,Debate(Dou_Dou)
+Exp-4,Single-Agent(qwen2.5-7B),SINGLE,Qwen2.5-7B,-,0.0,7500,73.56,-,73.56,33.54,16.10,"4,768,016",636,Single(Qwen7b)
+Exp-5,Single-Agent(Qwen2.5-14b),SINGLE,Qwen2.5-14b,-,0.0,7500,76.21,-,76.21,25.33,12.16,"4,081,033",544,Single(Qwen14b)
+Exp-6,Single-Agent(Doubao-1.6),SINGLE,Doubao-1.6,-,0.0,7500,88.04,-,88.04,40.30,19.34,"3,641,941",486,Single(Doubao)
+Exp-7,Single Self-Reflection(qwen2.5-7B),PHP,Qwen2.5-7B,-,0.0,7500,72.65,-,72.65,101.53,48.74,"15,143,084",2019,SingleSelf(Qwen7b)
+Exp-8,Single Self-Reflection(Qwen-14b),PHP,Qwen-14b,-,0.0,7500,76.83,-,76.83,91.51,43.92,"15,322,083",2043,SingleSelf(Qwen14b)
+Exp-9,Single Self-Reflection(Doubao-1.6),PHP,Doubao-1.6,-,0.0,7500,85.00,-,85.00,176.29,84.62,"15,024,402",2003,SingleSelf(Dou)

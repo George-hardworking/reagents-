@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-11-13 14:01:40",
+  "final_round_accuracy_statistics": {
+    "total_samples": 7500,
+    "agent1_correct": 5449,
+    "model_correct": 5449,
+    "agent1_accuracy": 0.7265333333333334,
+    "model_accuracy": 0.7265333333333334
+  },
+  "round_by_round_accuracy_statistics": {
+    "round_1": {
+      "total_samples": 7500,
+      "agent1_correct": 5412,
+      "model_correct": 5412,
+      "agent1_accuracy": 0.7216,
+      "model_accuracy": 0.7216
+    },
+    "round_2": {
+      "total_samples": 7500,
+      "agent1_correct": 5424,
+      "model_correct": 5424,
+      "agent1_accuracy": 0.7232,
+      "model_accuracy": 0.7232
+    },
+    "round_3": {
+      "total_samples": 7500,
+      "agent1_correct": 5449,
+      "model_correct": 5449,
+      "agent1_accuracy": 0.7265333333333334,
+      "model_accuracy": 0.7265333333333334
+    }
+  },
+  "runtime_statistics": {
+    "total_overview_runtime": 365513.12664899987,
+    "total_agent1_runtime": 365513.12664899864,
+    "total_rounds": 22500,
+    "total_agent1_round_1_runtime": 121837.70888299948,
+    "total_agent1_round_2_runtime": 121837.70888299948,
+    "total_agent1_round_3_runtime": 121837.70888299948
+  },
+  "token_usage_statistics": {
+    "total_tokens": 15143084,
+    "total_agent1_tokens": 15143084,
+    "total_agent1_round_1_tokens": 5228988,
+    "total_agent1_round_2_tokens": 4961609,
+    "total_agent1_round_3_tokens": 4952487
+  }
+}
