@@ -10,44 +10,77 @@
 
 ```text
 .
-├── README.md               # Overview and structure of the project.
-├── docs/
-│   ├── md-style.md         # 
-│   ├── Progress-record.md  # Record of progress and findings.
-│   ├── reference.md        # Record of all papers used in the project.
-├── configs/                # Configuration files for the project.
-├── agentvs/
-│   ├── utils
-│       ├──record.py
+├── README.md                         # Overview and structure of the project.
+├── description.txt                   # Brief project description.
+├── requirements.txt                  # List of dependencies required to run the project.
+├── setup.py                          # Project installation script.
+├── LICENSE                           # Project license.
+│
+├── agentvs/                          # Core agent modules.
 │   ├── __init__.py
-│   ├── analysis.py
-│   ├── config.py
-│   ├── dataset_loader.py
-│   ├── debate_core.py
-│   ├── eval_math.py
-│   ├── experiment_recorder.py
-│   ├── grader.py
-│   ├── math_normalize.py
-│   ├── model_manager.py
-│   ├── multi_agent.py
-│   ├── prompts.py
-│   ├── single_agent.py
-├── experiments/
-│   ├── dataset_test_parallel
-│       ├── 
-│   ├── dataset_test_debate.py
-│   ├── dataset_test_single.py
-│   ├── dataset_test_unified.py
-│   ├── magents_gsm8k.py
-│   ├── magents_paper.py
-│   ├── magents_test_if_real_debate.py
-│   ├── test_paper_debate.py
-│   ├── test_paper_single.py
-├── results/
-├── description.txt         # 
-└── requirements.txt        # List of dependencies required to run the project.
-├── setup.py
-.
+│   ├── debate_core.py                # Core logic for agent debate.
+│   ├── model_manager.py              # Model manager for connecting LLMs.
+│   ├── multi_agent.py                # Multi-agent system implementation.
+│   ├── single_agent.py               # Single-agent system implementation.
+│   └── single_reflection.py          # Single-agent reflection implementation.
+│
+├── core/                             # Core configuration and common tools.
+│   ├── __init__.py
+│   ├── config.py                     # Global configuration settings.
+│   ├── prompts.py                    # Prompt templates used by agents.
+│   └── record.py                     # Logging and record saving tools.
+│
+├── data/                             # Data processing and loading.
+│   ├── __init__.py
+│   └── dataset_loader.py             # Dataset loading utilities (GSM8K, MATH, etc.).
+│
+├── evaluation/                       # Evaluation and normalization modules.
+│   ├── __init__.py
+│   ├── eval_math.py                  # Math evaluation tools.
+│   ├── experiment_recorder.py        # Records experiment meta-data and logs.
+│   ├── grader.py                     # Scoring system for evaluating answers.
+│   └── math_normalize.py             # Tools to normalize mathematical expressions.
+│
+├── tool_scripts/                     # Scripts for analysis and project utilities.
+│   ├── __init__.py
+│   ├── analysis.py                   # General analysis script.
+│   ├── analyze_debate_results.py     # Script to analyze debate experiment results.
+│   ├── analyze_php_results.py        # Script to analyze PHP (Progressive Hint Prompting) results.
+│   ├── analyze_results.py            # Script for basic results analysis.
+│   ├── compare_all_experiments.py    # Generates cross-experiment comparison reports.
+│   ├── merge_results_chunks.py       # Merges chunked result data.
+│   ├── project_structure.py          # Script for generating repository directory trees.
+│   ├── statistics.py                 # Statistical analysis tools.
+│   └── test_php.py                   # Test utility for PHP scripts.
+│
+├── experiments/                      # Scripts for running different experiments.
+│   ├── dataset_test_debate.py        # Runs multi-agent debate on datasets.
+│   ├── dataset_test_debate_parallel.py # Runs debates in parallel.
+│   ├── dataset_test_php.py           # Runs PHP tests on datasets.
+│   ├── dataset_test_single.py        # Runs single-agent evaluation on datasets.
+│   ├── dataset_test_unified_parallel.py # Unified script for running agent benchmarks in parallel.
+│   ├── magents_gsm8k.py              # Multi-agent tests specifically for GSM8K.
+│   ├── magents_paper.py              # Multi-agent testing reference from research paper.
+│   ├── magents_test_if_real_debate.py # Verifies the authenticity and quality of agent debates.
+│   ├── test_paper_debate.py          # Debug/test script for debate configurations.
+│   ├── test_paper_single.py          # Debug/test script for single-agent configurations.
+│   └── test_php_quick.py             # Quick execution script for PHP experiments.
+│
+├── scripts/                          # Bash scripts for job automation.
+│   ├── manage_parallel_experiments.sh
+│   ├── run_multi_agent_parallel.sh
+│   ├── run_php_parallel.sh
+│   ├── run_php_tests.sh
+│   └── run_single_agent_parallel.sh
+│
+├── configs/                          # Configuration files.
+│
+├── docs/                             # Documentation on the project style and status.
+│   └── schedule.md                   # Timeline and schedule planning.
+│
+└── results/                          # Directory for saving all experiment results and logs.
+    ├── comparison_analysis/          # Output folder for merged analyses.
+    └── [experiment_folders]/         # Dynamically generated results folders per test.
 
 ```
 
